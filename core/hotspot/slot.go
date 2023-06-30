@@ -15,8 +15,8 @@
 package hotspot
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 )
 
 const (

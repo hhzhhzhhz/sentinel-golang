@@ -3,9 +3,9 @@ package fiber
 import (
 	"net/http"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
 	"github.com/gofiber/fiber/v2"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
 )
 
 // SentinelMiddleware returns new gin.HandlerFunc

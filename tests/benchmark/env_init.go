@@ -17,9 +17,9 @@ package benchmark
 import (
 	"log"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/logging"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/config"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 )
 
 func InitSentinel() {

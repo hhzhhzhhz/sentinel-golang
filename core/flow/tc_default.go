@@ -15,7 +15,7 @@
 package flow
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
 )
 
 type DirectTrafficShapingCalculator struct {

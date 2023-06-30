@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	tmock "github.com/stretchr/testify/mock"

@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/flow"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/config"
 	"github.com/cloudwego/hertz/pkg/common/ut"
 	"github.com/cloudwego/hertz/pkg/route"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/flow"
 	"github.com/stretchr/testify/assert"
 )
 

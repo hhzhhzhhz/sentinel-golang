@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
 	"github.com/coreos/etcd/clientv3"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
 	"github.com/stretchr/testify/mock"
 )
 

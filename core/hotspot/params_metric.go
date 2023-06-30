@@ -14,7 +14,7 @@
 
 package hotspot
 
-import "github.com/alibaba/sentinel-golang/core/hotspot/cache"
+import "github.com/hhzhhzhhz/sentinel-golang/core/hotspot/cache"
 
 const (
 	ConcurrencyMaxCount = 4000

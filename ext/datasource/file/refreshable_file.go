@@ -19,10 +19,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
 	"github.com/fsnotify/fsnotify"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 	"github.com/pkg/errors"
 )
 

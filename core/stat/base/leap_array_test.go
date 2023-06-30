@@ -20,7 +20,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

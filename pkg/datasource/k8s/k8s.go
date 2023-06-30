@@ -3,10 +3,10 @@ package k8s
 import (
 	"strings"
 
-	"github.com/alibaba/sentinel-golang/logging"
-	crdv1alpha1 "github.com/alibaba/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
-	"github.com/alibaba/sentinel-golang/pkg/datasource/k8s/controllers"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
+	crdv1alpha1 "github.com/hhzhhzhhz/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
+	"github.com/hhzhhzhhz/sentinel-golang/pkg/datasource/k8s/controllers"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"

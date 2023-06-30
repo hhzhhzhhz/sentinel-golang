@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 	"github.com/stretchr/testify/assert"
 )
 

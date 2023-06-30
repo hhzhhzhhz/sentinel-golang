@@ -19,9 +19,9 @@ import (
 	"math"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/isolation"
-	"github.com/alibaba/sentinel-golang/tests/benchmark"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/isolation"
+	"github.com/hhzhhzhhz/sentinel-golang/tests/benchmark"
 )
 
 func init() {

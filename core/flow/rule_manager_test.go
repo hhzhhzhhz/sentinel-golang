@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/stat"
-	sbase "github.com/alibaba/sentinel-golang/core/stat/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/stat"
+	sbase "github.com/hhzhhzhhz/sentinel-golang/core/stat/base"
 	"github.com/stretchr/testify/assert"
 )
 

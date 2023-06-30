@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/system"
+	"github.com/hhzhhzhhz/sentinel-golang/core/system"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

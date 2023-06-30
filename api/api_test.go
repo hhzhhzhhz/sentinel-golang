@@ -17,7 +17,7 @@ package api
 import (
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

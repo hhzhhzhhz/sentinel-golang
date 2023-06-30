@@ -15,9 +15,9 @@
 package stat
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	metric_exporter "github.com/alibaba/sentinel-golang/exporter/metric"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	metric_exporter "github.com/hhzhhzhhz/sentinel-golang/exporter/metric"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 )
 
 const (

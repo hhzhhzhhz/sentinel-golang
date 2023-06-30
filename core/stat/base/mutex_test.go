@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 )
 
 func Test_Mutex_TryLock(t *testing.T) {

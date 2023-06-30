@@ -1,10 +1,10 @@
-module github.com/alibaba/sentinel-golang/pkg/datasource/etcdv3
+module github.com/hhzhhzhhz/sentinel-golang/pkg/datasource/etcdv3
 
 go 1.13
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/alibaba/sentinel-golang v1.0.2
+	github.com/hhzhhzhhz/sentinel-golang v1.0.2
 	github.com/coreos/bbolt v1.3.4 // indirect
 	github.com/coreos/etcd v3.3.25+incompatible
 	github.com/coreos/go-semver v0.3.0 // indirect

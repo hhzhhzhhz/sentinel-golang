@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/server"
 )

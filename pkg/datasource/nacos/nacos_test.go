@@ -3,7 +3,7 @@ package nacos
 import (
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/clients/config_client"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"

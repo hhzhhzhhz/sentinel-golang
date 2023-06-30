@@ -3,9 +3,9 @@ package hertz
 import (
 	"context"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
 	"github.com/cloudwego/hertz/pkg/app"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
 )
 
 // SentinelServerMiddleware returns new app.HandlerFunc

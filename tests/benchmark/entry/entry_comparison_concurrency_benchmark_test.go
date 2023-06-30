@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
 )
 
 func doSomethingWithSize() {

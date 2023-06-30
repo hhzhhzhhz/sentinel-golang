@@ -20,16 +20,16 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/logging"
 	"github.com/go-logr/logr"
+	"github.com/hhzhhzhhz/sentinel-golang/core/circuitbreaker"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 	"github.com/pkg/errors"
 	k8sApiError "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	datasourcev1 "github.com/alibaba/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
+	datasourcev1 "github.com/hhzhhzhhz/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
 )
 
 // CircuitBreakerRulesReconciler reconciles a CircuitBreakerRules object

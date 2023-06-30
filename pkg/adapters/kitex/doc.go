@@ -5,7 +5,7 @@ This package provides Sentinel integration for Kitex.
 For server side, users may append a Sentinel middleware to Kitex service, like:
 
 	import (
-		sentinelPlugin "github.com/alibaba/sentinel-golang/pkg/adapters/kitex"
+		sentinelPlugin "github.com/hhzhhzhhz/sentinel-golang/pkg/adapters/kitex"
 	)
 	srv := hello.NewServer(new(HelloImpl),server.WithMiddleware(SentinelServerMiddleware()))
 

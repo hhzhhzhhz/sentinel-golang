@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 	"github.com/pkg/errors"
 )
 
@@ -30,7 +30,7 @@ type Entity struct {
 	Sentinel SentinelConfig
 }
 
-type App struct { 
+type App struct {
 	// Name represents the name of current running service.
 	Name string
 	// Type indicates the classification of the service (e.g. web service, API gateway).

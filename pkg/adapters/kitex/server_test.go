@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/flow"
 	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
 	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
 	"github.com/cloudwego/kitex/client"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/flow"
 	"github.com/stretchr/testify/assert"
 )
 

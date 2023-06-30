@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/logging"
 	"github.com/go-logr/logr"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

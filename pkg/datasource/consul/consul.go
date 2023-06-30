@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
 	"github.com/hashicorp/consul/api"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 )
 
 type consulDataSource struct {

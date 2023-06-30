@@ -3,8 +3,8 @@ package k8s
 import (
 	"strings"
 
-	"github.com/alibaba/sentinel-golang/logging"
 	"github.com/go-logr/logr"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 )
 
 // noopInfoLogger is a logr.InfoLogger that's always disabled, and does nothing.

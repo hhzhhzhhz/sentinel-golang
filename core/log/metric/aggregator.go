@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/config"
+	"github.com/hhzhhzhhz/sentinel-golang/core/stat"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/util"
 )
 
 type metricTimeMap = map[uint64][]*base.MetricItem

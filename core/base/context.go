@@ -14,7 +14,7 @@
 
 package base
 
-import "github.com/alibaba/sentinel-golang/util"
+import "github.com/hhzhhzhhz/sentinel-golang/util"
 
 type EntryContext struct {
 	entry *SentinelEntry

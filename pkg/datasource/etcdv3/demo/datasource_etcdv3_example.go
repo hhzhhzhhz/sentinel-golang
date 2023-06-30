@@ -5,14 +5,14 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/pkg/datasource/etcdv3"
 	"github.com/coreos/etcd/clientv3"
+	sentinel "github.com/hhzhhzhhz/sentinel-golang/api"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/config"
+	"github.com/hhzhhzhhz/sentinel-golang/core/flow"
+	"github.com/hhzhhzhhz/sentinel-golang/ext/datasource"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/pkg/datasource/etcdv3"
 )
 
 func main() {

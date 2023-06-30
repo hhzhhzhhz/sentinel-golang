@@ -17,9 +17,9 @@ package flow
 import (
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/hhzhhzhhz/sentinel-golang/core/base"
+	"github.com/hhzhhzhhz/sentinel-golang/core/stat"
+	"github.com/hhzhhzhhz/sentinel-golang/logging"
 	"github.com/stretchr/testify/assert"
 )
 
