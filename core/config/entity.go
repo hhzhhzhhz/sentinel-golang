@@ -30,14 +30,16 @@ type Entity struct {
 	Sentinel SentinelConfig
 }
 
+type App struct { 
+	// Name represents the name of current running service.
+	Name string
+	// Type indicates the classification of the service (e.g. web service, API gateway).
+	Type int32
+}
+
 // SentinelConfig represent the general configuration of Sentinel.
 type SentinelConfig struct {
-	App struct {
-		// Name represents the name of current running service.
-		Name string
-		// Type indicates the classification of the service (e.g. web service, API gateway).
-		Type int32
-	}
+	App App
 	// Exporter represents configuration items related to exporter, like metric exporter.
 	Exporter ExporterConfig
 	// Log represents configuration items related to logging.
