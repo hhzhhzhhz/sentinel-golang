@@ -113,10 +113,7 @@ func NewDefaultConfig() *Entity {
 	return &Entity{
 		Version: "v1",
 		Sentinel: SentinelConfig{
-			App: struct {
-				Name string
-				Type int32
-			}{
+			App: App{
 				Name: UnknownProjectName,
 				Type: DefaultAppType,
 			},
